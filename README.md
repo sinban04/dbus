@@ -1,6 +1,7 @@
 # DBUS
 This is just the sample code using dbus IPC.
-
+Listener just waits for the dbus message, and reply to the sender.
+The sender will get the reply from the listener and print.
 
 ## Prerequisite
 I assume the system is debian, and i used this code in Raspberry Pi 2,3

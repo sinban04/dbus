@@ -71,10 +71,10 @@ int main()
 	
 	dbus_message_unref(reply);
 
-//	printf("Received message: %s\n",msg_in);
+	printf("Received message: %s\n",msg_in);
 	
-	gettimeofday(&end, NULL);
-	printf("%ld\n", ((end.tv_sec * 1000000 + end.tv_usec) - (start.tv_sec * 1000000 + start.tv_usec)));
+//	gettimeofday(&end, NULL);
+//	printf("%ld\n", ((end.tv_sec * 1000000 + end.tv_usec) - (start.tv_sec * 1000000 + start.tv_usec)));
 
 	return 0;
 
